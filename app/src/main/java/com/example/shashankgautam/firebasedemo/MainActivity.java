@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference mRootRefrence = firebaseDatabase.getReference();
     private DatabaseReference mChlildRrfrence = mRootRefrence.child("Device");
-    //  private DatabaseReference mChlildRrfrence1=mRootRefrence.child("name");
+
     private TextView textView;
 
 
