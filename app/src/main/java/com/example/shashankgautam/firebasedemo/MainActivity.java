@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 String message = dataSnapshot.getValue(String.class);
                 textView.setText(message);
 
+
             }
 
 
